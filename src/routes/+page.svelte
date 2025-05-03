@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Tilt, Shine } from "svelte-ux";
-  import { base } from "$app/paths";
+  import Image from "$lib/assets/Image.jpeg";
 </script>
 
 <!-- Main Content -->
@@ -46,7 +46,7 @@
         <!-- Optional: Add an image here -->
         <div class="mb-8 md:mb-0 md:w-1/3">
           <img
-            src="{base}src/lib/assets/Image.jpeg"
+            src={Image}
             alt="Your Name"
             class="mx-auto rounded-lg shadow-lg"
           />

@@ -16,7 +16,6 @@ import "@layerstack/utils/number";
 import "@layerstack/utils/routing";
 import "@layerstack/utils/array";
 import { scaleLinear } from "d3-scale";
-import { b as base } from "../../chunks/paths.js";
 enablePatches();
 setAutoFreeze(false);
 function matchMedia(queryString) {
@@ -239,12 +238,13 @@ function Tilt($$payload, $$props) {
   bind_props($$props, { maxRotation, setBrightness, class: className });
   pop();
 }
+const Image = "/Jassobolewski.github.io/_app/immutable/assets/Image.BOxPOFLH.jpeg";
 function _page($$payload) {
   $$payload.out += `<main><section id="hero" class="bg-gray-100 py-20 md:py-32"><div class="container mx-auto px-6 text-center"><h1 class="mb-4 text-4xl font-bold text-gray-900 md:text-6xl">Hi, I'm Jan Sobolewski</h1> <p class="mb-6 text-lg font-semibold text-indigo-700 md:text-2xl">Computer Science Student</p> <p class="text-md mx-auto mb-8 max-w-2xl text-gray-600 md:text-lg">A driven Computer Science student with a proven foundation in software
         development (Fanshawe College Advanced Diploma, Dean's Honour Roll 6x).
         Skilled in C++, Java, C#, and web technologies, passionate about
         building efficient applications and solving complex problems. Eager to
-        contribute to innovative projects.</p> <a href="#projects" class="mr-4 rounded-md bg-indigo-600 px-8 py-3 text-lg font-medium text-white transition duration-300 hover:bg-indigo-700">View My Work</a> <a href="#contact" class="rounded-md border border-indigo-600 px-8 py-3 text-lg font-medium text-indigo-600 transition duration-300 hover:bg-indigo-50">Get In Touch</a></div></section> <section id="about" class="py-16 md:py-24"><div class="container mx-auto px-6"><h2 class="mb-12 text-center text-3xl font-bold text-gray-900 md:text-4xl">About Me</h2> <div class="flex flex-col items-center md:flex-row md:space-x-12"><div class="mb-8 md:mb-0 md:w-1/3"><img${attr("src", `${stringify(base)}src/lib/assets/Image.jpeg`)} alt="Your Name" class="mx-auto rounded-lg shadow-lg"></div> <div class="text-lg leading-relaxed text-gray-700 md:w-2/3"><p class="mb-4">Currently pursuing a Bachelor of Science in Computer Science at
+        contribute to innovative projects.</p> <a href="#projects" class="mr-4 rounded-md bg-indigo-600 px-8 py-3 text-lg font-medium text-white transition duration-300 hover:bg-indigo-700">View My Work</a> <a href="#contact" class="rounded-md border border-indigo-600 px-8 py-3 text-lg font-medium text-indigo-600 transition duration-300 hover:bg-indigo-50">Get In Touch</a></div></section> <section id="about" class="py-16 md:py-24"><div class="container mx-auto px-6"><h2 class="mb-12 text-center text-3xl font-bold text-gray-900 md:text-4xl">About Me</h2> <div class="flex flex-col items-center md:flex-row md:space-x-12"><div class="mb-8 md:mb-0 md:w-1/3"><img${attr("src", Image)} alt="Your Name" class="mx-auto rounded-lg shadow-lg"></div> <div class="text-lg leading-relaxed text-gray-700 md:w-2/3"><p class="mb-4">Currently pursuing a Bachelor of Science in Computer Science at
             Western University, building upon a comprehensive Computer
             Programmer Analyst Advanced Diploma from Fanshawe College (graduated
             with a 4.12 GPA and 6x Dean's Honour Roll awards). My education

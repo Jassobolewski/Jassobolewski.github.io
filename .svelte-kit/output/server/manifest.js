@@ -13,19 +13,12 @@ return {
 		client: {start:"_app/immutable/entry/start.D4AdSEqb.js",app:"_app/immutable/entry/app.DfJIEem0.js",imports:["_app/immutable/entry/start.D4AdSEqb.js","_app/immutable/chunks/DeQd-ndv.js","_app/immutable/chunks/cCwxAksi.js","_app/immutable/chunks/BusQ8HLX.js","_app/immutable/chunks/DiebAUcc.js","_app/immutable/entry/app.DfJIEem0.js","_app/immutable/chunks/cCwxAksi.js","_app/immutable/chunks/Bsk29_yd.js","_app/immutable/chunks/lemDLpx_.js","_app/immutable/chunks/BsMeZizU.js","_app/immutable/chunks/DmiQ7at6.js","_app/immutable/chunks/DiebAUcc.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
-			__memo(() => import('./nodes/1.js')),
-			__memo(() => import('./nodes/2.js'))
+			__memo(() => import('./nodes/1.js'))
 		],
 		routes: [
-			{
-				id: "/",
-				pattern: /^\/$/,
-				params: [],
-				page: { layouts: [0,], errors: [1,], leaf: 2 },
-				endpoint: null
-			}
+			
 		],
-		prerendered_routes: new Set([]),
+		prerendered_routes: new Set(["/Jassobolewski.github.io/"]),
 		matchers: async () => {
 			
 			return {  };
