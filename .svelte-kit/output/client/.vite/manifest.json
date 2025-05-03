@@ -1,0 +1,165 @@
+{
+  ".svelte-kit/generated/client-optimized/app.js": {
+    "file": "_app/immutable/entry/app.CFTDujZe.js",
+    "name": "entry/app",
+    "src": ".svelte-kit/generated/client-optimized/app.js",
+    "isEntry": true,
+    "imports": [
+      "_COxtZHMa.js",
+      "_CkR5JjnQ.js",
+      "_djNO61ht.js",
+      "_CHdRZtPq.js",
+      "_DM6ccm6n.js",
+      "_C82JrB-z.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "file": "_app/immutable/nodes/0.Ca52_J_0.js",
+    "name": "nodes/0",
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_djNO61ht.js",
+      "_COxtZHMa.js",
+      "_CkR5JjnQ.js",
+      "_CHdRZtPq.js",
+      "_CSMIitsS.js",
+      "_Cb2ARcio.js"
+    ],
+    "css": [
+      "_app/immutable/assets/0.DCMlUrzH.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/Jan_Sobolewski_Resume.C-YAFT3A.pdf"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "_app/immutable/nodes/1.DyhpAHHN.js",
+    "name": "nodes/1",
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_djNO61ht.js",
+      "_BoALxXgM.js",
+      "_COxtZHMa.js",
+      "_CkR5JjnQ.js",
+      "_Cb2ARcio.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "file": "_app/immutable/nodes/2.C8qP1uPy.js",
+    "name": "nodes/2",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_djNO61ht.js",
+      "_BoALxXgM.js",
+      "_COxtZHMa.js",
+      "_airTDF5t.js",
+      "_CSMIitsS.js",
+      "_DM6ccm6n.js"
+    ],
+    "css": [
+      "_app/immutable/assets/2.vjyIWJaG.css"
+    ]
+  },
+  "_BoALxXgM.js": {
+    "file": "_app/immutable/chunks/BoALxXgM.js",
+    "name": "legacy",
+    "imports": [
+      "_COxtZHMa.js"
+    ]
+  },
+  "_C82JrB-z.js": {
+    "file": "_app/immutable/chunks/C82JrB-z.js",
+    "name": "index-client",
+    "imports": [
+      "_COxtZHMa.js"
+    ]
+  },
+  "_CHdRZtPq.js": {
+    "file": "_app/immutable/chunks/CHdRZtPq.js",
+    "name": "if",
+    "imports": [
+      "_COxtZHMa.js"
+    ]
+  },
+  "_COxtZHMa.js": {
+    "file": "_app/immutable/chunks/COxtZHMa.js",
+    "name": "runtime"
+  },
+  "_CSMIitsS.js": {
+    "file": "_app/immutable/chunks/CSMIitsS.js",
+    "name": "attributes",
+    "imports": [
+      "_COxtZHMa.js",
+      "_djNO61ht.js"
+    ]
+  },
+  "_Cb2ARcio.js": {
+    "file": "_app/immutable/chunks/Cb2ARcio.js",
+    "name": "index",
+    "imports": [
+      "_x0OAiZgc.js"
+    ]
+  },
+  "_CkR5JjnQ.js": {
+    "file": "_app/immutable/chunks/CkR5JjnQ.js",
+    "name": "render",
+    "imports": [
+      "_COxtZHMa.js",
+      "_djNO61ht.js"
+    ]
+  },
+  "_DM6ccm6n.js": {
+    "file": "_app/immutable/chunks/DM6ccm6n.js",
+    "name": "props",
+    "imports": [
+      "_COxtZHMa.js"
+    ]
+  },
+  "_airTDF5t.js": {
+    "file": "_app/immutable/chunks/airTDF5t.js",
+    "name": "index",
+    "imports": [
+      "_COxtZHMa.js"
+    ]
+  },
+  "_djNO61ht.js": {
+    "file": "_app/immutable/chunks/djNO61ht.js",
+    "name": "disclose-version",
+    "imports": [
+      "_COxtZHMa.js"
+    ]
+  },
+  "_x0OAiZgc.js": {
+    "file": "_app/immutable/chunks/x0OAiZgc.js",
+    "name": "entry",
+    "imports": [
+      "_COxtZHMa.js",
+      "_airTDF5t.js",
+      "_C82JrB-z.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
+    "file": "_app/immutable/entry/start.tbvu3QQD.js",
+    "name": "entry/start",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_x0OAiZgc.js"
+    ]
+  },
+  "src/lib/assets/Jan_Sobolewski_Resume.pdf": {
+    "file": "_app/immutable/assets/Jan_Sobolewski_Resume.C-YAFT3A.pdf",
+    "src": "src/lib/assets/Jan_Sobolewski_Resume.pdf"
+  }
+}
