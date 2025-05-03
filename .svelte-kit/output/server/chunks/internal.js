@@ -1,6 +1,6 @@
 import { H as HYDRATION_ERROR, g as get_next_sibling, d as define_property, s as set_active_reaction, a as set_active_effect, i as is_array, b as active_effect, c as active_reaction, e as init_operations, f as get_first_child, h as HYDRATION_START, j as HYDRATION_END, k as hydration_failed, l as clear_text_content, m as array_from, n as component_root, o as is_passive_event, p as create_text, q as branch, r as push, t as component_context, u as pop, v as set, L as LEGACY_PROPS, w as get, x as flushSync, y as mutable_source, z as render, A as push$1, C as setContext, D as pop$1 } from "./index.js";
 import "clsx";
-let base = "/Jassobolewski.github.io";
+let base = "";
 let assets = base;
 const app_dir = "_app";
 const initial = { base, assets };
@@ -548,7 +548,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "lh477c"
+  version_hash: "1e7s9g"
 };
 async function get_hooks() {
   let handle;

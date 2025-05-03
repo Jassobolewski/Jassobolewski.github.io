@@ -238,7 +238,7 @@ function Tilt($$payload, $$props) {
   bind_props($$props, { maxRotation, setBrightness, class: className });
   pop();
 }
-const Image = "/Jassobolewski.github.io/_app/immutable/assets/Image.BOxPOFLH.jpeg";
+const Image = "/_app/immutable/assets/Image.BOxPOFLH.jpeg";
 function _page($$payload) {
   $$payload.out += `<main><section id="hero" class="bg-gray-100 py-20 md:py-32"><div class="container mx-auto px-6 text-center"><h1 class="mb-4 text-4xl font-bold text-gray-900 md:text-6xl">Hi, I'm Jan Sobolewski</h1> <p class="mb-6 text-lg font-semibold text-indigo-700 md:text-2xl">Computer Science Student</p> <p class="text-md mx-auto mb-8 max-w-2xl text-gray-600 md:text-lg">A driven Computer Science student with a proven foundation in software
         development (Fanshawe College Advanced Diploma, Dean's Honour Roll 6x).
