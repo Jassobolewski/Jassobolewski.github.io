@@ -5,7 +5,6 @@
   import MyFile from "$lib/assets/Jan_Sobolewski_Resume.pdf";
 </script>
 
-export const prerender = true;
 <header class="sticky top-0 z-50 bg-white shadow-md">
   <nav class="container mx-auto flex items-center justify-between px-6 py-4">
     <a href="/" class="text-2xl font-bold text-indigo-600 hover:text-indigo-800"
