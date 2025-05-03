@@ -37,6 +37,7 @@
 		"vite": "^6.2.6"
 	},
 	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.8",
 		"bits-ui": "^1.4.3",
 		"svelte-ux": "^1.0.4"
 	}
