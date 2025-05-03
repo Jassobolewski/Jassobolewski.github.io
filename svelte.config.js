@@ -9,7 +9,7 @@ const config = {
       fallback: "404.html",
     }),
     paths: {
-      base: dev ? "" : `/${repoName}`,
+      base: "",
     },
     prerender: {
       handleHttpError: "warn",
