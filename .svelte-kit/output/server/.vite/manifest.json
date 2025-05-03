@@ -5,7 +5,8 @@
     "src": ".svelte-kit/generated/server/internal.js",
     "isEntry": true,
     "imports": [
-      "_internal.js"
+      "_internal.js",
+      "_paths.js"
     ]
   },
   "_exports.js": {
@@ -36,8 +37,13 @@
     "file": "chunks/internal.js",
     "name": "internal",
     "imports": [
-      "_index.js"
+      "_index.js",
+      "_paths.js"
     ]
+  },
+  "_paths.js": {
+    "file": "chunks/paths.js",
+    "name": "paths"
   },
   "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
     "file": "entries/fallbacks/error.svelte.js",
@@ -56,9 +62,10 @@
     "isEntry": true,
     "imports": [
       "_index.js",
-      "_internal.js",
+      "_paths.js",
       "_exports.js",
-      "_index2.js"
+      "_index2.js",
+      "_internal.js"
     ]
   },
   "src/lib/assets/Jan_Sobolewski_Resume.pdf": {
@@ -93,8 +100,9 @@
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
+      "_index.js",
       "_index2.js",
-      "_index.js"
+      "_paths.js"
     ],
     "css": [
       "_app/immutable/assets/_page.QEPgfr2E.css"

@@ -1,6 +1,6 @@
 import { E as attr, F as escape_html, D as pop, A as push } from "../../chunks/index.js";
 import { n as navigating } from "../../chunks/index3.js";
-const MyFile = "/_app/immutable/assets/Jan_Sobolewski_Resume.C-YAFT3A.pdf";
+const MyFile = "/Jassobolewski.github.io/_app/immutable/assets/Jan_Sobolewski_Resume.C-YAFT3A.pdf";
 function _layout($$payload, $$props) {
   push();
   let { children } = $$props;
